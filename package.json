@@ -1,0 +1,20 @@
+{
+  "name": "lang-read",
+  "module": "src/index.ts",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/gapi": "^0.0.47",
+    "@types/lodash": "^4.14.202",
+    "chrome-types": "^0.1.246"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "build": "bun ./build.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
